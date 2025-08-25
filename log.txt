@@ -1,10 +1,6 @@
-[2025-08-24 16:38:22] Added item: Laptop (x2) - Total: 2400.0
-[2025-08-24 16:38:22] Executed add_item_by_ID
-[2025-08-24 16:38:22] Added item: Phone (x1) - Total: 800.0
-[2025-08-24 16:38:22] Executed add_item_by_ID
-[2025-08-24 16:38:22] Invalid product ID attempt: 99
-[2025-08-24 16:38:22] Executed add_item_by_ID
-[2025-08-24 16:38:22] Discount set to 10%
-[2025-08-24 16:38:22] Executed set_discount
-[2025-08-24 16:38:22] Calculated total with discount: 2880.0
-[2025-08-24 16:38:22] Executed calculate_total
+[2025-08-24 19:37:51] Added item: Tablet (x15) - Total: 6000.0
+[2025-08-24 19:37:51] Executed add_item_by_ID
+[2025-08-24 19:37:51] Discount set to 10%
+[2025-08-24 19:37:51] Executed set_discount
+[2025-08-24 19:37:51] Calculated total with discount: 8280.0
+[2025-08-24 19:37:51] Executed calculate_total

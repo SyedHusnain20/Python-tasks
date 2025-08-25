@@ -34,7 +34,7 @@ class Order:
                         'item_total': item_total
                     })
                     order_log = f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Added item: {products[1]} (x{Quantity}) - Total: {item_total}"
-                    with open('Tasks/log.txt', 'a') as log_file:
+                    with open('Tasks/log.txt', 'w') as log_file:
                         log_file.write(order_log + '\n')
                     print(f"Product {products[1]} added successfully.")
                     product_found = True
@@ -82,5 +82,6 @@ order = Order()
 order.add_item_by_ID("1", 2)
 order.add_item_by_ID("2", 1)
 order.add_item_by_ID("99", 1)
+order.add_item_by_ID("8",15)
 Order.set_discount(10)
 order.calculate_total()
